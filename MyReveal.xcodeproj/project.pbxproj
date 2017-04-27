@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		E84BFB5D1EB1C2B7004F0676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB5C1EB1C2B7004F0676 /* Foundation.framework */; };
 		E84BFB681EB1C2B7004F0676 /* MyReveal.mm in Sources */ = {isa = PBXBuildFile; fileRef = E84BFB671EB1C2B7004F0676 /* MyReveal.mm */; };
+		E84BFB731EB1C2C8004F0676 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB721EB1C2C8004F0676 /* Reveal.framework */; };
+		E84BFB751EB1C2CF004F0676 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB741EB1C2CF004F0676 /* libz.tbd */; };
+		E84BFB771EB1C33E004F0676 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB761EB1C33E004F0676 /* libsubstrate.dylib */; };
+		E84BFB791EB1C42E004F0676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB781EB1C42E004F0676 /* CoreGraphics.framework */; };
+		E84BFB7B1EB1C434004F0676 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB7A1EB1C434004F0676 /* QuartzCore.framework */; };
+		E84BFB7D1EB1C444004F0676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB7C1EB1C444004F0676 /* UIKit.framework */; };
+		E84BFB7F1EB1C451004F0676 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB7E1EB1C451004F0676 /* CoreFoundation.framework */; };
+		E84BFB811EB1C4B1004F0676 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB801EB1C4B1004F0676 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +26,17 @@
 		E84BFB621EB1C2B7004F0676 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		E84BFB641EB1C2B7004F0676 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		E84BFB651EB1C2B7004F0676 /* MyReveal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyReveal-Prefix.pch"; sourceTree = "<group>"; };
-		E84BFB661EB1C2B7004F0676 /* MyReveal.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyReveal.xm; sourceTree = "<group>"; };
+		E84BFB661EB1C2B7004F0676 /* MyReveal.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyReveal.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E84BFB671EB1C2B7004F0676 /* MyReveal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyReveal.mm; sourceTree = "<group>"; };
 		E84BFB6C1EB1C2B7004F0676 /* MyReveal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MyReveal.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/MyReveal.plist; sourceTree = "<group>"; };
+		E84BFB721EB1C2C8004F0676 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		E84BFB741EB1C2CF004F0676 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E84BFB761EB1C33E004F0676 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = "../Reveal2Loader-master/theos/lib/libsubstrate.dylib"; sourceTree = "<group>"; };
+		E84BFB781EB1C42E004F0676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E84BFB7A1EB1C434004F0676 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E84BFB7C1EB1C444004F0676 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E84BFB7E1EB1C451004F0676 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E84BFB801EB1C4B1004F0676 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +44,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84BFB811EB1C4B1004F0676 /* CFNetwork.framework in Frameworks */,
+				E84BFB7F1EB1C451004F0676 /* CoreFoundation.framework in Frameworks */,
+				E84BFB7D1EB1C444004F0676 /* UIKit.framework in Frameworks */,
+				E84BFB7B1EB1C434004F0676 /* QuartzCore.framework in Frameworks */,
+				E84BFB791EB1C42E004F0676 /* CoreGraphics.framework in Frameworks */,
+				E84BFB771EB1C33E004F0676 /* libsubstrate.dylib in Frameworks */,
+				E84BFB751EB1C2CF004F0676 /* libz.tbd in Frameworks */,
 				E84BFB5D1EB1C2B7004F0676 /* Foundation.framework in Frameworks */,
+				E84BFB731EB1C2C8004F0676 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +62,7 @@
 		E84BFB4E1EB1C2B7004F0676 = {
 			isa = PBXGroup;
 			children = (
+				E84BFB721EB1C2C8004F0676 /* Reveal.framework */,
 				E84BFB5E1EB1C2B7004F0676 /* MyReveal */,
 				E84BFB5B1EB1C2B7004F0676 /* Frameworks */,
 				E84BFB5A1EB1C2B7004F0676 /* Products */,
@@ -55,6 +80,13 @@
 		E84BFB5B1EB1C2B7004F0676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E84BFB801EB1C4B1004F0676 /* CFNetwork.framework */,
+				E84BFB7E1EB1C451004F0676 /* CoreFoundation.framework */,
+				E84BFB7C1EB1C444004F0676 /* UIKit.framework */,
+				E84BFB7A1EB1C434004F0676 /* QuartzCore.framework */,
+				E84BFB781EB1C42E004F0676 /* CoreGraphics.framework */,
+				E84BFB761EB1C33E004F0676 /* libsubstrate.dylib */,
+				E84BFB741EB1C2CF004F0676 /* libz.tbd */,
 				E84BFB5C1EB1C2B7004F0676 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -285,17 +317,24 @@
 				CODE_SIGN_IDENTITY = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyReveal/MyReveal-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				iOSOpenDevAppKilledAfterInstalled = SpringBoard;
+				TARGETED_DEVICE_FAMILY = 1;
+				iOSOpenDevAppKilledAfterInstalled = WeChat;
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
+				iOSOpenDevDevice = 192.168.2.3;
 				iOSOpenDevInstallOnAnyBuild = NO;
 				iOSOpenDevInstallOnProfiling = YES;
-				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevRespringOnInstall = NO;
 				iOSOpenDevUsePackageVersionPList = YES;
 			};
 			name = Debug;
@@ -306,17 +345,24 @@
 				CODE_SIGN_IDENTITY = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyReveal/MyReveal-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				iOSOpenDevAppKilledAfterInstalled = SpringBoard;
+				TARGETED_DEVICE_FAMILY = 1;
+				iOSOpenDevAppKilledAfterInstalled = WeChat;
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
+				iOSOpenDevDevice = 192.168.2.3;
 				iOSOpenDevInstallOnAnyBuild = NO;
 				iOSOpenDevInstallOnProfiling = YES;
-				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevRespringOnInstall = NO;
 				iOSOpenDevUsePackageVersionPList = YES;
 			};
 			name = Release;
@@ -340,6 +386,7 @@
 				E84BFB711EB1C2B7004F0676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
