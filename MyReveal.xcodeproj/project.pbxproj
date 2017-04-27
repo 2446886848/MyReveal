@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84BFB5D1EB1C2B7004F0676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84BFB5C1EB1C2B7004F0676 /* Foundation.framework */; };
+		E84BFB681EB1C2B7004F0676 /* MyReveal.mm in Sources */ = {isa = PBXBuildFile; fileRef = E84BFB671EB1C2B7004F0676 /* MyReveal.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E84BFB591EB1C2B7004F0676 /* MyReveal.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = MyReveal.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84BFB5C1EB1C2B7004F0676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E84BFB611EB1C2B7004F0676 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		E84BFB621EB1C2B7004F0676 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		E84BFB641EB1C2B7004F0676 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		E84BFB651EB1C2B7004F0676 /* MyReveal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyReveal-Prefix.pch"; sourceTree = "<group>"; };
+		E84BFB661EB1C2B7004F0676 /* MyReveal.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyReveal.xm; sourceTree = "<group>"; };
+		E84BFB671EB1C2B7004F0676 /* MyReveal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyReveal.mm; sourceTree = "<group>"; };
+		E84BFB6C1EB1C2B7004F0676 /* MyReveal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MyReveal.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/MyReveal.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84BFB551EB1C2B7004F0676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84BFB5D1EB1C2B7004F0676 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84BFB4E1EB1C2B7004F0676 = {
+			isa = PBXGroup;
+			children = (
+				E84BFB5E1EB1C2B7004F0676 /* MyReveal */,
+				E84BFB5B1EB1C2B7004F0676 /* Frameworks */,
+				E84BFB5A1EB1C2B7004F0676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84BFB5A1EB1C2B7004F0676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB591EB1C2B7004F0676 /* MyReveal.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84BFB5B1EB1C2B7004F0676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB5C1EB1C2B7004F0676 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84BFB5E1EB1C2B7004F0676 /* MyReveal */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB661EB1C2B7004F0676 /* MyReveal.xm */,
+				E84BFB671EB1C2B7004F0676 /* MyReveal.mm */,
+				E84BFB5F1EB1C2B7004F0676 /* Package */,
+				E84BFB631EB1C2B7004F0676 /* Supporting Files */,
+			);
+			path = MyReveal;
+			sourceTree = "<group>";
+		};
+		E84BFB5F1EB1C2B7004F0676 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB601EB1C2B7004F0676 /* DEBIAN */,
+				E84BFB691EB1C2B7004F0676 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		E84BFB601EB1C2B7004F0676 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB611EB1C2B7004F0676 /* control.txt */,
+				E84BFB621EB1C2B7004F0676 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		E84BFB631EB1C2B7004F0676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB641EB1C2B7004F0676 /* PackageVersion.plist */,
+				E84BFB651EB1C2B7004F0676 /* MyReveal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84BFB691EB1C2B7004F0676 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB6A1EB1C2B7004F0676 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		E84BFB6A1EB1C2B7004F0676 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB6B1EB1C2B7004F0676 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		E84BFB6B1EB1C2B7004F0676 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				E84BFB6C1EB1C2B7004F0676 /* MyReveal.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E84BFB561EB1C2B7004F0676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E84BFB581EB1C2B7004F0676 /* MyReveal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84BFB6F1EB1C2B7004F0676 /* Build configuration list for PBXNativeTarget "MyReveal" */;
+			buildPhases = (
+				E84BFB531EB1C2B7004F0676 /* ShellScript */,
+				E84BFB541EB1C2B7004F0676 /* Sources */,
+				E84BFB551EB1C2B7004F0676 /* Frameworks */,
+				E84BFB561EB1C2B7004F0676 /* Headers */,
+				E84BFB571EB1C2B7004F0676 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyReveal;
+			productName = MyReveal;
+			productReference = E84BFB591EB1C2B7004F0676 /* MyReveal.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84BFB4F1EB1C2B7004F0676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					E84BFB581EB1C2B7004F0676 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E84BFB521EB1C2B7004F0676 /* Build configuration list for PBXProject "MyReveal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E84BFB4E1EB1C2B7004F0676;
+			productRefGroup = E84BFB5A1EB1C2B7004F0676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84BFB581EB1C2B7004F0676 /* MyReveal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E84BFB531EB1C2B7004F0676 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		E84BFB571EB1C2B7004F0676 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84BFB541EB1C2B7004F0676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84BFB681EB1C2B7004F0676 /* MyReveal.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E84BFB6D1EB1C2B7004F0676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		E84BFB6E1EB1C2B7004F0676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		E84BFB701EB1C2B7004F0676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyReveal/MyReveal-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevAppKilledAfterInstalled = SpringBoard;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		E84BFB711EB1C2B7004F0676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyReveal/MyReveal-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevAppKilledAfterInstalled = SpringBoard;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84BFB521EB1C2B7004F0676 /* Build configuration list for PBXProject "MyReveal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84BFB6D1EB1C2B7004F0676 /* Debug */,
+				E84BFB6E1EB1C2B7004F0676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84BFB6F1EB1C2B7004F0676 /* Build configuration list for PBXNativeTarget "MyReveal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84BFB701EB1C2B7004F0676 /* Debug */,
+				E84BFB711EB1C2B7004F0676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84BFB4F1EB1C2B7004F0676 /* Project object */;
+}

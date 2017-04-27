@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MyReveal' target in the 'MyReveal' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
